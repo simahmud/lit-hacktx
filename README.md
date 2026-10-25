@@ -36,10 +36,10 @@ The chat:
 
 > **Sarah:** wait we should actually go to that concert
 > **Maya:** YES but I'm broke 💀
-> **Charitha:** isn't it friday
+> **Charlie:** isn't it friday
 > **Sarah:** I think saturday
 > **Maya:** also I don't wanna drive downtown
-> **Charitha:** there's that ramen place nearby too
+> **Charlie:** there's that ramen place nearby too
 
 The output:
 
@@ -57,7 +57,7 @@ The output:
 {
   "intent": "plan",
   "summary": "concert outing",
-  "participants": ["Sarah", "Maya", "Charitha"],
+  "participants": ["Sarah", "Maya", "Charlie"],
   "constraints": ["budget", "avoid_driving"],
   "entities": [
     {"type": "event", "query": "concert"}
